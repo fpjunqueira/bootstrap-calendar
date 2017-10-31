@@ -30,7 +30,7 @@ class DateView {
     }
 
     printDay(e) {
-        alert(`Data: ${this._day}/${this._month}/${this._year}`);
+        alert(`Data: ${this._day}/${this._month + 1}/${this._year}`);
     }
     
 }

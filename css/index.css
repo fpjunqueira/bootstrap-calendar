@@ -1,3 +1,10 @@
+.calendar {
+    position: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+   }
+
 body {
     margin: 0px;
 }
