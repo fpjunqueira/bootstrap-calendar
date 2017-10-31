@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+.day {
+   width: 35px;
+   float: left;
+}
+
+.month {
+   margin-left: 30px; 
+   margin-right: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   float: left;
+}
+
+.outDay {
+    background-color: rgb(241, 235, 223);
+}
+
+.holiday {
+    background-color: rgb(230, 177, 80)
+}
+
+.today {
+    background-color: rgb(80, 200, 230)
+}
+
+.monthTitle {
+    text-align: center;    
+}
