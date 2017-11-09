@@ -27,7 +27,7 @@ class DateModel {
     }
 
     isHoliday() {
-        return (Math.floor((Math.random() * 10) + 1) == 5) && !this.month != this._fillMonth;
+        return (Math.floor((Math.random() * 50) + 1) == 5) && !(this.month != this._fillMonth);
     }
 
     isExtendedHoliday() {
@@ -39,7 +39,6 @@ class DateModel {
         return this._year == now.year() && 
                         this._day == now.date() && 
                         this._month == now.month();
-        return isHoliday; 
     }
 
 }

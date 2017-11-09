@@ -12,12 +12,17 @@ let mesesDoAno = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
  */
 let meses = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let divAno = document.querySelector('#ano');
+
+
+// TODO
+// metodo para proximo mes e mes anterior
+
+// percorre o ano
 meses.forEach(function (month) {
 
     // cria uma div para o mês corrente
     let divMes = document.createElement('div');
     divMes.classList.add('month');
-
     let divNomeMes = document.createElement('div');
     let h4 = document.createElement('h4');
     h4.textContent = mesesDoAno[month];
@@ -40,6 +45,7 @@ meses.forEach(function (month) {
 
     let days = CalendarHelper.getDatesToFillMonth(month, 2017);
 
+    // preenche os dias do mes
     let contDia = 0;
     for (let semanaDoMes = 0; semanaDoMes < 6; semanaDoMes++) {
         let semana = document.createElement('div');

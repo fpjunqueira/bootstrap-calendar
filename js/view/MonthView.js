@@ -3,16 +3,24 @@
  */
 class MonthView {
     
-    constructor(dates) {
-        this._dates = [] = this.fillDates();
+    constructor(year, month) {
+        this.fillDates(year, month);
     }
 
     get dates() {
         return this._dates;
     }
 
-    // TODO
-    fillDates() {
-        return [];
+    // montar o componente mes 
+    fillDates(year, month) {
+    
     }
+
+    fillHeader(month) {
+
+    }
+
+    fillDays(month) {
+
+    } 
 }
