@@ -2,6 +2,8 @@
 
 Register events, holidays, important dates, etc...
 
+<img src="simple-js-calendar.png" alt="calendar"/>
+
 **Repo Under Construction**
 
 **Running**
