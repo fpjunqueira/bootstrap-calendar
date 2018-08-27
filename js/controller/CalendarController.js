@@ -13,6 +13,7 @@ let mesesDoAno = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
 let meses = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let divAno = document.querySelector('#ano');
 
+let year = 2018;
 
 // TODO
 // metodo para proximo mes e mes anterior
@@ -43,7 +44,7 @@ meses.forEach(function (month) {
     }
     divMes.appendChild(diasDasemana);
 
-    let days = CalendarHelper.getDatesToFillMonth(month, 2017);
+    let days = CalendarHelper.getDatesToFillMonth(month, year);
 
     // preenche os dias do mes
     let contDia = 0;
