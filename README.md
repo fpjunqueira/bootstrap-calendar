@@ -1,16 +1,9 @@
-# TypeScript Calendar
+# Vanilla Javascript Calendar
 
-Register events, holidays, important dates, etc...
+Rendering a calendar with vanilla JS.
 
 <img src="simple-js-calendar.png" alt="calendar"/>
 
-**Repo Under Construction**
+## RUN
 
-**Running**
-
-To see the calendar open the index.html file in a browser.
-
-**TODO**
-
-- Typescript refactoring...
-- Publish On AWS S3
+`$ google-chrome index.html`
